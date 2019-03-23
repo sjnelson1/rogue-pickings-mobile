@@ -19,12 +19,12 @@ body {
 }
 
 .container {
-max-width: 1200px;
-width: 90%;
-display: flex;
-justify-content: center;
-align-items: center;
-flex-flow: row wrap;
+	max-width: 1200px;
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
 }
 
 
@@ -47,20 +47,20 @@ p {
 /*The widths are in a percentage!*/
 header {
 	border-bottom: 3px solid #77a466;
-    text-align: center;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 header h1 {
 	font-size: 1.875em;
-	  margin: 0;
-    padding: 38px 20px 20px 20px;
-    border-bottom: 3px solid #77a466;
-    width: 100%;
+	margin: 0;
+  padding: 38px 20px 20px 20px;
+  border-bottom: 3px solid #77a466;
+  width: 100%;
 }
 header h1 span {
 	color: #77a466;
@@ -104,8 +104,8 @@ header nav ul li a{
 .main-title h3 {
 	text-align: left;
 	padding: 5px 0;
-    color: #77a466;
-    font-size: 1.125em;
+  color: #77a466;
+  font-size: 1.125em;
 }
 
 .main-title p {
@@ -140,12 +140,12 @@ header nav ul li a{
 /*The widths are in a percentage!*/
 footer {
 	border-top: 3px solid #eee;
-    text-align: center;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 footer span {
 	font-family: 'Wisdom Script', cursive;
@@ -155,44 +155,44 @@ footer span {
 }
 @media all and (min-width:768) {
 	.bottom-section .bottom-section{
-        justify-content: space-between;
-        align-items: flex-start;
-        border-top: 1px solid #eee;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-top: 1px solid #eee;
     }
 
     .section-one,
     .section-two,
     .section-three {
-        border-top: none;
-        flex-basis: 30%;
+    border-top: none;
+    flex-basis: 30%;
     }
 
     .section-two {
-        border-left: 1px solid #eee;
-        border-right: 1px solid #eee;
-        padding: 0 20px;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    padding: 0 20px;
     }
 }
 
 
 @media all and (min-width: 1200px) {
 	header {
-        justify-content: space-between;
+    justify-content: space-between;
     }
 
     header h1 {
-        width: 30%;
-        padding: 0;
-        border-bottom: none;
-        text-align: left;
+    width: 30%;
+    padding: 0;
+    border-bottom: none;
+    text-align: left;
     }
 
     header nav {
-        width: 40%;
+    width: 40%;
     }
 
     header nav ul {
-        display: flex;
-        justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
     }
 }
