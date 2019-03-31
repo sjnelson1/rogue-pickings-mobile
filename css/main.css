@@ -153,7 +153,7 @@ footer span {
 	color: #77a466;
 	font-size: .875em;
 }
-@media all and (min-width:768) {
+@media all and (min-width:768px) {
 	.bottom-section .bottom-section{
   justify-content: space-between;
   align-items: flex-start;
@@ -181,6 +181,7 @@ footer span {
     }
 
     header h1 {
+		height: 110px;
     width: 30%;
     padding: 0;
     border-bottom: none;
